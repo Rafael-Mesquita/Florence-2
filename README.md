@@ -102,7 +102,7 @@ Aqui estão as tarefas Florence-2que você pode executar:
 ## Legenda da frase Grounding
 
 A tarefa de fixação da legenda à frase requer entrada de texto adicional, ou seja, legenda.
-Formato dos resultados de aterramento da legenda da frase: {'<CAPTION_TO_PHRASE_GROUNDING>': {'bboxes': [[x1, y1, x2, y2], ...], 'labels': ['', '', ...]}}
+Formato dos resultados de aterramento da legenda da frase:
 
         task_prompt = "<CAPTION_TO_PHRASE_GROUNDING>"
         results = run_example(task_prompt, text_input="A green car parked in front of a yellow building.")
